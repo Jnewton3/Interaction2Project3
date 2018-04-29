@@ -1,0 +1,102 @@
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50%;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+
+
+/* ADD YOUR CSS STYLES BELOW */
+
+
+
+
+#sitecontainer {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, red, black);
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+.circle {
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, #1cbbb4, black);
+  position: absolute;
+  left: -15%;
+  top: 60%;
+  width: 8%;
+  height: 8%;
+
+  padding-bottom: 8%;
+  z-index: 2;
+}
+
+.circle2 {
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, blue, black);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30%;
+  height: 30%;
+  padding-bottom: 30%;
+  z-index: 3;
+  transform: translate(-50%,-50%);
+
+}
+
+.circle3 {
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 5%;
+  height: 2%;
+  background: linear-gradient(to bottom right, #1cbbb4, blue, black);
+  animation: straightLine 2.5s infinite linear;
+  padding-bottom: 4.8%;
+  z-index: 1;
+}
+
+.circle4 {
+  border-radius: 50%;
+  border: purple;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 5%;
+  height: 2%;
+  background: purple;
+  animation: straightLine 2.5s infinite linear;
+  padding-bottom: 4.8%;
+  z-index: 2;
+}
