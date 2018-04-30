@@ -1,0 +1,90 @@
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.bigcontainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(cyan, red);
+}
+
+.rotater {
+  display: none;
+  float: left;
+  width: 5%;
+  height: 5%;
+  top: 50%;
+  left: 64%;
+  padding-bottom: 5%;
+  transform-origin: -250% center;
+  position: relative;
+  background: linear-gradient(to bottom right, blue, white);
+  border-radius: 50%;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 30%;
+  background: linear-gradient(to bottom right, green, white);
+  cursor: pointer;
+}
+
+.shooter {
+  float: left;
+  width: 3%;
+  height: 3%;
+  top: 20%;
+  left: -20%;
+  padding-bottom: 3%;
+  position: relative;
+  background: linear-gradient(to bottom right, red, white);
+  border-radius: 50%;
+}

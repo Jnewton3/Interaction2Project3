@@ -1,0 +1,160 @@
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.bigcontainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(white, cyan);
+  z-index: 1;
+}
+
+.start {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: dashed white;
+  width: 10%;
+  height: 9%;
+  padding: 1%;
+  color: white;
+  font-size: 150%;
+  float: left;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: 'IBM Plex Mono', monospace;
+  vertical-align: top;
+}
+
+.circle {
+  display: none;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 1%;
+  height: 1%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 1%;
+  background: linear-gradient(to bottom right, white, green);
+  z-index: 2;
+}
+
+.circle2 {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 3%;
+  height: 3%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 3%;
+  background-color: white;
+  z-index: 1;
+}
+
+.circle3 {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 3%;
+  height: 3%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 3%;
+  background-color: white;
+  z-index: 1;
+}
+
+.circle4 {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 3%;
+  height: 3%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 3%;
+  background-color: white;
+  z-index: 1;
+}
+
+.circle5 {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 3%;
+  height: 3%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 3%;
+  background-color: white;
+  z-index: 1;
+}
+
+.circle6 {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 3%;
+  height: 3%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 3%;
+  background-color: white;
+  z-index: 1;
+}
+
+.circle7 {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 3%;
+  height: 3%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 3%;
+  background-color: white;
+  z-index: 1;
+}
